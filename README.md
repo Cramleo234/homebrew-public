@@ -1,30 +1,29 @@
-# Homebrew-Tap für Mischpult
+# Homebrew-Tap von Cramleo
 
-[Mischpult](https://github.com/Cramleo234/mischpult) ist eine kostenlose Menüleisten-App für macOS 14.2+, die Lautstärke, Ausgabegerät und Equalizer für jede App einzeln regelt.
+Kostenlose Mac-Apps zum Installieren per [Homebrew](https://brew.sh).
 
-## Installation
+## Einrichtung (einmalig)
 
 ```bash
-brew tap cramleo234/mischpult
-brew trust cramleo234/mischpult
-brew install --cask cramleo234/mischpult/mischpult
+brew tap cramleo234/public
+brew trust cramleo234/public
 ```
 
 > **Warum `brew trust`?** Ab Homebrew 6 müssen Taps, die nicht von Homebrew selbst stammen, einmal freigegeben werden.
 
-Mischpult ist nicht von Apple notarisiert. Beim ersten Start unter **Systemeinstellungen → Datenschutz & Sicherheit** auf **Trotzdem öffnen** klicken.
+## Apps
+
+| App | Beschreibung | Installation |
+| --- | --- | --- |
+| [Mischpult](https://github.com/Cramleo234/mischpult) | Lautstärke, Ausgabegerät und Equalizer pro App (macOS 14.2+) | `brew install --cask cramleo234/public/mischpult` |
+
+Die Apps sind nicht von Apple notarisiert. Beim ersten Start unter **Systemeinstellungen → Datenschutz & Sicherheit** auf **Trotzdem öffnen** klicken.
 
 ## Aktualisieren
 
 ```bash
 brew update
-brew upgrade --cask cramleo234/mischpult/mischpult
-```
-
-## Entfernen
-
-```bash
-brew uninstall --cask cramleo234/mischpult/mischpult
+brew upgrade --cask cramleo234/public/mischpult
 ```
 
 ## Lizenz
