@@ -1,6 +1,6 @@
 cask "er-editor" do
-  version "1.0.2"
-  sha256 "85029925a51c9674529acb0eca8ea1f56701a18126b53586dbc2c10417f117a2"
+  version "1.1.0"
+  sha256 "bcbf542fd50589be18f271a71a61bbf90524164797579145b0073b10501991a0"
 
   url "https://github.com/Cramleo234/er-editor/releases/download/v#{version}/ER-Editor-#{version}.dmg"
   name "ER-Editor"
@@ -30,7 +30,9 @@ cask "er-editor" do
     ER-Editor ist nicht von Apple notarisiert. Beim ersten Start unter
     Systemeinstellungen → Datenschutz & Sicherheit auf „Trotzdem öffnen“ klicken.
 
-    Diagramme werden automatisch gespeichert; mit „Speichern“ lassen sie sich
-    als JSON sichern und mit „SVG“/„PNG“ als Bild exportieren.
+    Diagramme sind .erd-Dateien (Ablage → Sichern, Öffnen, Zuletzt benutzt);
+    .json-Dateien aus der Browser-Version lassen sich ebenfalls öffnen.
+    Ein früher automatisch gespeichertes Diagramm erscheint beim ersten Start
+    einmalig als neues Dokument – bitte sichern.
   EOS
 end
