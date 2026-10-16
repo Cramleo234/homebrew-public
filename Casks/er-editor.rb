@@ -1,6 +1,6 @@
 cask "er-editor" do
-  version "1.1.0"
-  sha256 "bcbf542fd50589be18f271a71a61bbf90524164797579145b0073b10501991a0"
+  version "1.1.1"
+  sha256 "7538ac15449f0e67a421869281ef1e5b9879d0939834d9f56307666ffff81174"
 
   url "https://github.com/Cramleo234/er-editor/releases/download/v#{version}/ER-Editor-#{version}.dmg"
   name "ER-Editor"
