@@ -1,6 +1,6 @@
 cask "wuerfelparadies" do
-  version "1.0.0"
-  sha256 "3eff125fe0c8cc1f6e2ad8dbb7e25440ca0ae602a918081f02fa65f02c2cf1fe"
+  version "1.1.0"
+  sha256 "ed8efd094f38762cab8b1b808deda2a2c3e3bd3c714d2abddee3618819ec0c0a"
 
   url "https://github.com/Cramleo234/wuerfelparadies/releases/download/v#{version}/Wuerfelparadies-#{version}.dmg"
   name "Kris kleines Würfelparadies"
